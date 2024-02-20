@@ -70,27 +70,14 @@ body{
     border: 1px solid #d1d1d1;
 }
 
-.error{
-    animation: shake 0.1s linear 10;
-}
-@keyframes shake{
-    0%{
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(-2px);
-    }
-    50%{
-        transform: translateX(0);
-    }
-    75%{
-        transform: translateX(2px);
-    }
-    100%{
-        transform: translateX(0);
-    }
+#error{
+    display: none;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
     
 }
+
 
 .namefooter{
     text-align: right;
@@ -105,3 +92,4 @@ body{
 .chandan{
     color:#5149ea;
 }
+
